@@ -1,0 +1,15 @@
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/bin/Debug/net9.0/HelloFromCSharp
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/bin/Debug/net9.0/HelloFromCSharp.deps.json
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/bin/Debug/net9.0/HelloFromCSharp.runtimeconfig.json
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/bin/Debug/net9.0/HelloFromCSharp.dll
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/bin/Debug/net9.0/HelloFromCSharp.pdb
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/obj/Debug/net9.0/HelloFromCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/obj/Debug/net9.0/HelloFromCSharp.AssemblyInfoInputs.cache
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/obj/Debug/net9.0/HelloFromCSharp.AssemblyInfo.cs
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/obj/Debug/net9.0/HelloFromCSharp.csproj.CoreCompileInputs.cache
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/obj/Debug/net9.0/HelloFromCSharp.sourcelink.json
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/obj/Debug/net9.0/HelloFromCSharp.dll
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/obj/Debug/net9.0/refint/HelloFromCSharp.dll
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/obj/Debug/net9.0/HelloFromCSharp.pdb
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/obj/Debug/net9.0/HelloFromCSharp.genruntimeconfig.cache
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/obj/Debug/net9.0/ref/HelloFromCSharp.dll

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KP1tUTsUq9U=",
+  "success": true,
+  "projectFilePath": "/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/HelloFromCSharp/HelloFromCSharp.csproj",
+  "expectedPackageFiles": [
+    "/home/void/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.4/microsoft.aspnetcore.app.ref.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
