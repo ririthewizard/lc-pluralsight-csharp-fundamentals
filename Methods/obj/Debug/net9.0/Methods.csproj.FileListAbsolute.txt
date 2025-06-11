@@ -1,0 +1,15 @@
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/bin/Debug/net9.0/Methods
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/bin/Debug/net9.0/Methods.deps.json
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/bin/Debug/net9.0/Methods.runtimeconfig.json
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/bin/Debug/net9.0/Methods.dll
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/bin/Debug/net9.0/Methods.pdb
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/obj/Debug/net9.0/Methods.GeneratedMSBuildEditorConfig.editorconfig
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/obj/Debug/net9.0/Methods.AssemblyInfoInputs.cache
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/obj/Debug/net9.0/Methods.AssemblyInfo.cs
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/obj/Debug/net9.0/Methods.csproj.CoreCompileInputs.cache
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/obj/Debug/net9.0/Methods.sourcelink.json
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/obj/Debug/net9.0/Methods.dll
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/obj/Debug/net9.0/refint/Methods.dll
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/obj/Debug/net9.0/Methods.pdb
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/obj/Debug/net9.0/Methods.genruntimeconfig.cache
+/home/void/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/Methods/obj/Debug/net9.0/ref/Methods.dll
