@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <Reference Include="BethanysPieShopHRM.Logic">
-      <HintPath>..\..\..\..\Assets\BethanysPieShopHRM.Logic.dll</HintPath>
+      <HintPath>..\Assets\BethanysPieShopHRM.Logic.dll</HintPath>
     </Reference>
   </ItemGroup>
 

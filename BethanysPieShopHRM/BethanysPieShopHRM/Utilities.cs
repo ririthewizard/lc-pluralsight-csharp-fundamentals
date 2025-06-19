@@ -5,7 +5,7 @@ namespace BethanysPieShopHRM
 {
     internal class Utilities
     {
-        private static string directory = @"D:\data\BethanysPieShopHRM\";
+        private static string directory = @"~/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/BethanysPieShopHRM/data/BethanysPieShopHRM/";
         private static string fileName = "employees.txt";
 
         internal static void RegisterEmployee(List<Employee> employees)
