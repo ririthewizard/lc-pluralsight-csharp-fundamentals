@@ -1,0 +1,3 @@
+firstName:Bethany;lastName:Smith;email:bsmith@shralpersunion.org;birthday:10/10/1973 00:00:00;hourlyRate:80;type:1;
+firstName:Roland;lastName:Deschain;email:rdeschain@shralpersunion.org;birthday:01/01/1025 00:00:00;hourlyRate:190;type:3;
+firstName:Indie;lastName:Fosbrink;email:ifosbrink@shralpersunion.org;birthday:09/27/1996 00:00:00;hourlyRate:1000;type:5;

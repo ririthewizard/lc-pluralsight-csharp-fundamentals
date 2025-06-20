@@ -5,7 +5,7 @@ namespace BethanysPieShopHRM
 {
     internal class Utilities
     {
-        private static string directory = @"~/workspace/github.com/ririthewizard/lc-pluralsight-csharp-fundamentals/BethanysPieShopHRM/data/BethanysPieShopHRM/";
+        private static string directory = @"data/BethanysPieShopHRM/";
         private static string fileName = "employees.txt";
 
         internal static void RegisterEmployee(List<Employee> employees)
@@ -78,6 +78,7 @@ namespace BethanysPieShopHRM
             }
             catch (FormatException fex)
             {
+                Console.WriteLine(fex.Message);
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("That's not the correct format to enter an ID!\n\n");
                 Console.ResetColor();
@@ -91,15 +92,15 @@ namespace BethanysPieShopHRM
 
             if (existingFileFound)
             {
-                Console.WriteLine("An existing file with Employee data is found.");
+                Console.WriteLine("An existing file with this Employee's data has been found");
             }
             else
             {
                 if (!Directory.Exists(directory))
                 {
                     Directory.CreateDirectory(directory);
-                    Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine("Directory is ready for saving files.");
+                    Console.ForegroundColor = ConsoleColor.DarkGreen;
+                    Console.WriteLine($"Directory {directory} is ready for saving files");
                     Console.ResetColor();
                 }
             }
@@ -196,22 +197,20 @@ namespace BethanysPieShopHRM
         internal static void SaveEmployees(List<Employee> employees)
         {
             string path = $"{directory}{fileName}";
-            StringBuilder sb = new StringBuilder();
+            StringBuilder builder = new StringBuilder();
             foreach (Employee employee in employees)
             {
                 string type = GetEmployeeType(employee);
-                sb.Append($"firstName:{employee.FirstName};");
-                sb.Append($"lastName:{employee.LastName};");
-                sb.Append($"email:{employee.Email};");
-                sb.Append($"birthDay:{employee.BirthDay.ToShortDateString()};");
-                sb.Append($"hourlyRate:{employee.HourlyRate};");
-                sb.Append($"type:{type};");
-                sb.Append(Environment.NewLine);
+                builder.Append($"firstName:{employee.FirstName};");
+                builder.Append($"lastName:{employee.LastName};");
+                builder.Append($"email:{employee.Email};");
+                builder.Append($"birthday:{employee.BirthDay};");
+                builder.Append($"hourlyRate:{employee.HourlyRate};");
+                builder.Append($"type:{type};");
+                builder.Append(Environment.NewLine);
             }
-            File.WriteAllText(path, sb.ToString());
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Saved employees successfully");
-            Console.ResetColor();
+
+            File.WriteAllText(path, builder.ToString());
         }
 
         private static string GetEmployeeType(Employee employee)
