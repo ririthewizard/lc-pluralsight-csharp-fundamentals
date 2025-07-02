@@ -1,4 +1,4 @@
-namespace BethanysPieShopHRM
+namespace BethanysPieShop.InventoryManagement
 {
     internal class Employee
     {
