@@ -48,10 +48,29 @@ namespace BethanysPieShop.InventoryManagement
         public int AmountInStock { get; private set; }
         public bool IsBelowStockThreshold { get; private set; }
 
+        public Price Price { get; set; }
+
+        public Product(int id) : this(id, string.Empty)
+        {
+            Id = id;
+        }
+
         public Product(int id, string name)
         {
             Id = id;
             Name = name;
+        }
+
+        public Product(int id, string name, string? description, Price price, UnitType unitType, int maxAmountInStock)
+        {
+            Id = id;
+            Name = name;
+            Description = description;
+            UnitType = unitType;
+            Price = price;
+            maxItemsInStock = maxAmountInStock;
+
+            UpdateLowStock();
         }
 
 
@@ -74,6 +93,23 @@ namespace BethanysPieShop.InventoryManagement
         public void IncreaseStock()
         {
             AmountInStock++;
+        }
+
+        public void IncreaseStock(int amount)
+        {
+            int newStock = AmountInStock + amount;
+
+            if (newStock <= maxItemsInStock)
+            {
+                AmountInStock += amount;
+            }
+            else
+            {
+                AmountInStock = maxItemsInStock;
+                Log($"{CreateSimpleProductRepresentation()} stock overflow. {newStock - AmountInStock} item(s) ordered that couldn't be stored");
+            }
+
+            UpdateLowStock();
         }
 
         private void DecreaseStock(int items, string reason)
@@ -99,11 +135,11 @@ namespace BethanysPieShop.InventoryManagement
         public string DisplayDetailsFull()
         {
             StringBuilder sb = new();
-            sb.Append($"{id} {name} \n{Description}\n{AmountInStock} item(s) in stock");
+            sb.Append($"{Id} {Name} \n{Description}\n{Price}\n{AmountInStock} item(s) in stock");
 
             if (IsBelowStockThreshold)
             {
-                sb.Append("\n!!STOCK LOW!!\n!!ALERT");
+                sb.Append("\n!!STOCK LOW!!\n!!ALERT!!");
             }
 
             return sb.ToString();
